@@ -12,19 +12,19 @@ We made a few changes to adjust it to our goals, as well as made new dataset fil
 This class creates the dataset. In this class, the images of the two types of snakes are collected form the correct folders. The images resized to 128X128 pixels and divided to train and test files (80% for train and 20% for test). Each hdf5 file in both the train and the test contains 2 arrays: the first array contains the images, and the second array contains the labels - 0 for Night snake and 1 for Viper.
 
 ### ProcessDataset
-This class has two functions:  
-•	To Get the hdf5 files and return the image and label arrays.  
+This class has two functions:   
+•	To Get the hdf5 files and return the image and label arrays.    
 •	To Edit and reshape the image and label arrays to suit the Neural Network use.
 
 ### Statistics
-This class contains few functions to generate statistic and information on the model:
-•	To Generate percentages of accuracy for the train and test.
-•	To Print an error graph that shows the improvement of the train and the test. 
+This class contains few functions to generate statistic and information on the model:  
+•	To Generate percentages of accuracy for the train and test.  
+•	To Print an error graph that shows the improvement of the train and the test.  
 •	To Print examples and show, for each example, whether the system was right or wrong.
 
 ### Logistic_Regression
-This class contains Logistic Regression model implementation.
-The class uses the ProcessDataset class to input the hdf5 files, performs a train (with logistic regression) and test. For test we chose a random image that the algorithm classifies as one of the two snakes. If the algorithm fails to classify the image, a relevant message is printed to the console.
+This class contains Logistic Regression model implementation.  
+The class uses the ProcessDataset class to input the hdf5 files, performs a train (with logistic regression) and test. For test we chose a random image that the algorithm classifies as one of the two snakes. If the algorithm fails to classify the image, a relevant message is printed to the console.  
 This class uses the Statistics class to print an improvement rate graph of the test and train.
 
 
