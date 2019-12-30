@@ -12,8 +12,8 @@ We made a few changes to adjust it to our goals, as well as made new dataset fil
 This class creates the dataset. In this class, the images of the two types of snakes are collected form the correct folders. The images resized to 128X128 pixels and divided to train and test files (80% for train and 20% for test). Each hdf5 file in both the train and the test contains 2 arrays: the first array contains the images, and the second array contains the labels - 0 for Night snake and 1 for Viper.
 
 ### ProcessDataset
-This class has two functions: 
-•	To Get the hdf5 files and return the image and label arrays.  
+This class has two functions: \n
+•	To Get the hdf5 files and return the image and label arrays.  \n
 •	To Edit and reshape the image and label arrays to suit the Neural Network use.
 
 ### Statistics
