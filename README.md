@@ -37,7 +37,7 @@ We also used the Ridge regression in few of the program runs (which eventually w
 
 
 
-# To-Do:
+### To-Do:
 In the future, we would like to add a CNN model and add the option of classifying lots of types of snakes.
 
 
