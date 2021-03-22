@@ -37,7 +37,7 @@ We also used the Ridge regression in few of the program runs (which eventually w
 
 
 
-### CNN:
+### CNN
 This class contains the Convolutional Neural Network model implementation.
 Here we used 2 convolution layers:
 Layer 1 : kernel size of 5x5x3x48
